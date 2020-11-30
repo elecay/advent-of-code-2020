@@ -1,6 +1,5 @@
 # advent-of-code-2020
-Advent of Code 2020 🎄 Go Solutions by 
-`@elecay` 😊
+Advent of Code 2020 🎄 Go Solutions by `@elecay` 😊
 [Twitter](https://twitter.com/elecay)
 
 [![Build Status](https://github.com/elecay/advent-of-code-2020/workflows/build/badge.svg)](https://github.com/elecay/advent-of-code-2020/actions)
