@@ -13,7 +13,7 @@ func TestExampleOne(t *testing.T) {
 	solution := findSolutionOne(elements, 2020)
 
 	if solution != expected {
-		t.Errorf("Solution = %d; want " + strconv.Itoa(expected), solution)
+		t.Errorf("Solution = %d; want "+strconv.Itoa(expected), solution)
 	}
 }
 
@@ -24,6 +24,6 @@ func TestExampleTwo(t *testing.T) {
 	solution := findSolutionTwo(elements)
 
 	if solution != expected {
-		t.Errorf("Solution = %d; want " + strconv.Itoa(expected), solution)
+		t.Errorf("Solution = %d; want "+strconv.Itoa(expected), solution)
 	}
 }

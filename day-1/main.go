@@ -44,7 +44,7 @@ func findSolutionOne(elements []int, target int) int {
 func findSolutionTwo(elements []int) int {
 	const target = 2020
 	for index, element := range elements {
-		possibleSolution := findSolutionOne(utils.RemoveByIndex(elements, index), target - element)
+		possibleSolution := findSolutionOne(utils.RemoveByIndex(elements, index), target-element)
 		if possibleSolution != -1 {
 			return possibleSolution * element
 		}

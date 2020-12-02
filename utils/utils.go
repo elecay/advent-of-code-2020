@@ -36,6 +36,6 @@ func ReadFile(path string) []int {
 }
 
 func RemoveByIndex(elements []int, index int) []int {
-	elements[index] = elements[len(elements) - 1]
-	return elements[:len(elements) - 1]
+	elements[index] = elements[len(elements)-1]
+	return elements[:len(elements)-1]
 }
