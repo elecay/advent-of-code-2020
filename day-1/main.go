@@ -34,9 +34,8 @@ func findSolutionOne(elements []int, target int) int {
 		if exists {
 			solution := diffValue * element
 			return solution
-		} else {
-			mapper[element] = true
 		}
+		mapper[element] = true
 	}
 	return -1
 }

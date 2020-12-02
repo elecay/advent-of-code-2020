@@ -29,6 +29,7 @@ func ReadFile(path string) []int {
 		value, err := strconv.Atoi(scanner.Text())
 		if err != nil {
 			log.Fatal(err)
+			return nil
 		}
 		result = append(result, value)
 	}
