@@ -4,10 +4,9 @@ import (
 	"bufio"
 	"log"
 	"os"
-	"strconv"
 )
 
-func ReadFile(path string) []int {
+func ReadFile(path string) []string {
 	localPath, err := os.Getwd()
 	if err != nil {
 		log.Fatal(err)
@@ -24,19 +23,15 @@ func ReadFile(path string) []int {
 	}
 	defer file.Close()
 
-	var result []int
+	var result []string
 	for scanner.Scan() {
-		value, err := strconv.Atoi(scanner.Text())
-		if err != nil {
-			log.Println(err)
-			return nil
-		}
+		value := scanner.Text()
 		result = append(result, value)
 	}
 	return result
 }
 
-func RemoveByIndex(elements []int, index int) []int {
+func RemoveByIndex(elements []string, index int) []string {
 	elements[index] = elements[len(elements)-1]
 	return elements[:len(elements)-1]
 }

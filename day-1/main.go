@@ -3,6 +3,8 @@ package main
 import (
 	"advent-of-code-2020/utils"
 	"fmt"
+	"log"
+	"strconv"
 )
 
 func main() {
@@ -26,26 +28,34 @@ func main() {
 	}
 }
 
-func findSolutionOne(elements []int, target int) int {
+func findSolutionOne(elements []string, target int) int {
 	mapper := make(map[int]bool)
 	for _, element := range elements {
-		diffValue := target - element
+		elementAsInt, err := strconv.Atoi(element)
+		if err != nil {
+			log.Fatal(err)
+		}
+		diffValue := target - elementAsInt
 		_, exists := mapper[diffValue]
 		if exists {
-			solution := diffValue * element
+			solution := diffValue * elementAsInt
 			return solution
 		}
-		mapper[element] = true
+		mapper[elementAsInt] = true
 	}
 	return -1
 }
 
-func findSolutionTwo(elements []int) int {
+func findSolutionTwo(elements []string) int {
 	const target = 2020
 	for index, element := range elements {
-		possibleSolution := findSolutionOne(utils.RemoveByIndex(elements, index), target-element)
+		elementAsInt, err := strconv.Atoi(element)
+		if err != nil {
+			log.Fatal(err)
+		}
+		possibleSolution := findSolutionOne(utils.RemoveByIndex(elements, index), target-elementAsInt)
 		if possibleSolution != -1 {
-			return possibleSolution * element
+			return possibleSolution * elementAsInt
 		}
 	}
 	return -1
