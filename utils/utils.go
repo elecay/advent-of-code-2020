@@ -28,7 +28,7 @@ func ReadFile(path string) []int {
 	for scanner.Scan() {
 		value, err := strconv.Atoi(scanner.Text())
 		if err != nil {
-			log.Fatal(err)
+			log.Println(err)
 			return nil
 		}
 		result = append(result, value)
