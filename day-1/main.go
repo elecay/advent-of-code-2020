@@ -1,7 +1,7 @@
 package main
 
 import (
-	"adventcode/utils"
+	"advent-of-code-2020/utils"
 	"fmt"
 )
 
