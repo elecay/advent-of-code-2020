@@ -7,9 +7,9 @@ jobs:
     env:
       GOPATH: ${{ github.workspace }}
       GO111MODULE: off
-      defaults:
-        run:
-          working-directory: ${{ env.GOPATH }}/src/github.com/${{ github.repository }}
+    defaults:
+      run:
+        working-directory: ${{ env.GOPATH }}/src/github.com/${{ github.repository }}
     strategy:
       matrix:
         go-version: [1.15.x]
