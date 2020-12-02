@@ -4,8 +4,8 @@ Advent of Code 2020 🎄 Go Solutions by `@elecay` 😊
 
 I'm doing this challenge as an excuse to learn the basics about Golang, and of course, to get some fun. I will be learning the minimum necessary syntax to resolve each challenge. I expect that the quality of the code improves from one exercise to the next one.
 
-[![Tests Status](https://github.com/elecay/advent-of-code-2020/workflows/Test/badge.svg)](https://github.com/elecay/advent-of-code-2020/actions/Test)
-[![golangci-lint](https://github.com/elecay/advent-of-code-2020/workflows/golangci-lint/badge.svg)](https://github.com/marketplace/actions/golangci-lint)
+[![Tests Status](https://github.com/elecay/advent-of-code-2020/workflows/Test/badge.svg)](https://github.com/elecay/advent-of-code-2020/actions?query=workflow%3ATest)
+[![golangci-lint](https://github.com/elecay/advent-of-code-2020/workflows/golangci-lint/badge.svg)](https://github.com/elecay/advent-of-code-2020/actions?query=workflow%3Agolangci-lint)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
