@@ -32,3 +32,6 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 ## Running Tests
 
 Each day contains its own set of tests. To run them type `go test ./...`.
+
+---
+Repository style by [@adriennetacke](https://github.com/adriennetacke/advent-of-code-2020)
