@@ -27,6 +27,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 |---|:---:|:---:|
 | [Day 1: Report Repair](https://github.com/elecay/advent-of-code-2020/tree/main/day-1)| 🌟 | 🌟 |
 | [Day 2: Password Philosophy](https://github.com/elecay/advent-of-code-2020/tree/main/day-2)| 🌟 | 🌟 |
+| [Day 3: Toboggan Trajectory](https://github.com/elecay/advent-of-code-2020/tree/main/day-3)| 🌟 | 🌟 |
 
 ## Running Tests
 
