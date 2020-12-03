@@ -50,10 +50,10 @@ func countTrees(matrix [][]string, right int, down int) int {
 
 	for {
 		currentRow += down
-		currentColumn = (currentColumn+right)%columns
 		if currentRow >= rows {
 			break
 		}
+		currentColumn = (currentColumn+right)%columns
 		if isTree(matrix[currentRow][currentColumn]) {
 			trees++
 		}
