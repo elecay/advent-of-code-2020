@@ -47,7 +47,7 @@ func validatePassports(elements []string, validator func(string) bool) int {
 }
 
 func validatorOne(passport string) bool {
-	for field, _ := range fieldsToCheck() {
+	for field := range fieldsToCheck() {
 		if !strings.Contains(passport, field) {
 			return false
 		}
