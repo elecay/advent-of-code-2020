@@ -30,6 +30,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 3: Toboggan Trajectory](https://github.com/elecay/advent-of-code-2020/tree/main/day-3)| 🌟 | 🌟 |
 | [Day 4: Passport Processing](https://github.com/elecay/advent-of-code-2020/tree/main/day-4)| 🌟 | 🌟 |
 | [Day 5: Binary Boarding](https://github.com/elecay/advent-of-code-2020/tree/main/day-5)| 🌟 | 🌟 |
+| [Day 6: Custom Customs](https://github.com/elecay/advent-of-code-2020/tree/main/day-6)| 🌟 | 🌟 |
 
 ## Running Tests
 
