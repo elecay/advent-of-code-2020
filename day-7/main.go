@@ -59,8 +59,8 @@ func buildMapper(elements []string) map[string][]string {
 	return bagMapper
 }
 
-func buildMapperTwo(elements []string) map[string][]string {
-	bagMapper := make(map[string][]string)
+func buildMapperTwo(elements []string) map[string]map[string]int {
+	bagMapper := make(map[string]map[string]int)
 	for _, element := range elements {
 		re, _ := regexp.Compile(`((\d )?\w+ (\w+)? bag(s)?)`)
 		res := re.FindAllStringSubmatch(element, -1)
@@ -69,13 +69,11 @@ func buildMapperTwo(elements []string) map[string][]string {
 			bag := strings.Split(r[0], " ")
 			if i == 0 {
 				originBag = bag[0] + " " + bag[1]
+				bagMapper[originBag] = make(map[string]int)
 			} else {
 				currentBag := bag[1] + " " + bag[2]
-				bags := bag[0]
-				bagsAsInt, _ := strconv.Atoi(bags)
-				for i := 0; i < bagsAsInt; i++ {
-					bagMapper[originBag] = append(bagMapper[originBag], currentBag)
-				}
+				bagsAsInt, _ := strconv.Atoi(bag[0])
+				bagMapper[originBag][currentBag] = bagsAsInt
 			}
 		}
 	}
@@ -89,10 +87,10 @@ func countBags(bag string, bagsMapper map[string][]string, result map[string]boo
 	}
 }
 
-func countBagsTwo(bag string, bagsMapper map[string][]string) int {
-	total := len(bagsMapper[bag])
-	for _, newBag := range bagsMapper[bag] {
-		total += countBagsTwo(newBag, bagsMapper)
+func countBagsTwo(bag string, bagsMapper map[string]map[string]int) int {
+	total := 0
+	for k, v := range bagsMapper[bag] {
+		total += v + v*countBagsTwo(k, bagsMapper)
 	}
 	return total
 }
