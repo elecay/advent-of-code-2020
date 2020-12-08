@@ -70,10 +70,10 @@ func getResult(opsMapper map[int]map[string]string) (int, bool) {
 }
 
 func calculate(mapper map[string]string, accumulator int, position int) (int, int) {
-	accValue := mapper[acc]
 	newAccumulator := accumulator
 	nextPosition := position + 1
 
+	accValue := mapper[acc]
 	if accValue != "" {
 		op, times := getOpAndTimes(accValue)
 		newAccumulator += op * times
