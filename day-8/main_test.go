@@ -19,11 +19,11 @@ func TestExampleOne(t *testing.T) {
 
 func TestExampleTwo(t *testing.T) {
 	elements := utils.ReadFile("/test-input.txt")
-	expected := 0
+	expected := 8
 
 	solution := findSolutionTwo(elements)
 
 	if solution != expected {
-		t.Skip("Solution = %d; want "+strconv.Itoa(expected), solution)
+		t.Errorf("Solution = %d; want "+strconv.Itoa(expected), solution)
 	}
 }
