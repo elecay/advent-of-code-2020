@@ -32,6 +32,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 5: Binary Boarding](https://github.com/elecay/advent-of-code-2020/tree/main/day-5)| 🌟 | 🌟 |
 | [Day 6: Custom Customs](https://github.com/elecay/advent-of-code-2020/tree/main/day-6)| 🌟 | 🌟 |
 | [Day 7: Handy Haversacks](https://github.com/elecay/advent-of-code-2020/tree/main/day-7)| 🌟 | 🌟 |
+| [Day 8: Handheld Halting](https://github.com/elecay/advent-of-code-2020/tree/main/day-8)| 🌟 | 🌟 |
 
 ## Running Tests
 
