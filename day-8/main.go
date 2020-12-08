@@ -46,7 +46,6 @@ func findSolutionTwo(elements []string) int {
 		}
 		change++
 	}
-	return -1
 }
 
 func getResult(opsMapper map[int]map[string]string) (int, bool) {
@@ -71,7 +70,7 @@ func getResult(opsMapper map[int]map[string]string) (int, bool) {
 }
 
 func calculate(mapper map[string]string, accumulator int, position int) (int, int) {
-	accValue, _ := mapper[acc]
+	accValue := mapper[acc]
 	newAccumulator := accumulator
 	nextPosition := position + 1
 
@@ -79,7 +78,7 @@ func calculate(mapper map[string]string, accumulator int, position int) (int, in
 		op, times := getOpAndTimes(accValue)
 		newAccumulator += op * times
 	}
-	jmpValue, _ := mapper[jmp]
+	jmpValue := mapper[jmp]
 	if jmpValue != "" {
 		op, times := getOpAndTimes(jmpValue)
 		nextPosition = position + (op * times)
