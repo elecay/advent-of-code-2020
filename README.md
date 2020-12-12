@@ -25,15 +25,16 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 | Day  | Part One | Part Two |
 |---|:---:|:---:|
-| [Day 1: Report Repair](https://github.com/elecay/advent-of-code-2020/tree/main/day-1)| 🌟 | 🌟 |
-| [Day 2: Password Philosophy](https://github.com/elecay/advent-of-code-2020/tree/main/day-2)| 🌟 | 🌟 |
-| [Day 3: Toboggan Trajectory](https://github.com/elecay/advent-of-code-2020/tree/main/day-3)| 🌟 | 🌟 |
-| [Day 4: Passport Processing](https://github.com/elecay/advent-of-code-2020/tree/main/day-4)| 🌟 | 🌟 |
-| [Day 5: Binary Boarding](https://github.com/elecay/advent-of-code-2020/tree/main/day-5)| 🌟 | 🌟 |
-| [Day 6: Custom Customs](https://github.com/elecay/advent-of-code-2020/tree/main/day-6)| 🌟 | 🌟 |
-| [Day 7: Handy Haversacks](https://github.com/elecay/advent-of-code-2020/tree/main/day-7)| 🌟 | 🌟 |
-| [Day 8: Handheld Halting](https://github.com/elecay/advent-of-code-2020/tree/main/day-8)| 🌟 | 🌟 |
-| [Day 9: Encoding Error](https://github.com/elecay/advent-of-code-2020/tree/main/day-9)| 🌟 | 🌟 |
+| [Day 1: Report Repair](https://github.com/elecay/advent-of-code-2020/tree/main/day-01)| 🌟 | 🌟 |
+| [Day 2: Password Philosophy](https://github.com/elecay/advent-of-code-2020/tree/main/day-02)| 🌟 | 🌟 |
+| [Day 3: Toboggan Trajectory](https://github.com/elecay/advent-of-code-2020/tree/main/day-03)| 🌟 | 🌟 |
+| [Day 4: Passport Processing](https://github.com/elecay/advent-of-code-2020/tree/main/day-04)| 🌟 | 🌟 |
+| [Day 5: Binary Boarding](https://github.com/elecay/advent-of-code-2020/tree/main/day-05)| 🌟 | 🌟 |
+| [Day 6: Custom Customs](https://github.com/elecay/advent-of-code-2020/tree/main/day-06)| 🌟 | 🌟 |
+| [Day 7: Handy Haversacks](https://github.com/elecay/advent-of-code-2020/tree/main/day-07)| 🌟 | 🌟 |
+| [Day 8: Handheld Halting](https://github.com/elecay/advent-of-code-2020/tree/main/day-08)| 🌟 | 🌟 |
+| [Day 9: Encoding Error](https://github.com/elecay/advent-of-code-2020/tree/main/day-09)| 🌟 | 🌟 |
+| [Day 10: Adapter Array](https://github.com/elecay/advent-of-code-2020/tree/main/day-10)| 🌟 | 🌟 |
 
 ## Running Tests
 

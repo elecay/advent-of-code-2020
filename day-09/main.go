@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	elements := utils.ReadFile("/day-9/input.txt")
+	elements := utils.ReadFile("/day-09/input.txt")
 
 	const preamble = 25
 

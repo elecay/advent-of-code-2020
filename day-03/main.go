@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	elements := utils.ReadFile("/day-3/input.txt")
+	elements := utils.ReadFile("/day-03/input.txt")
 
 	solutionOne := findSolutionOne(elements)
 	if solutionOne != -1 {

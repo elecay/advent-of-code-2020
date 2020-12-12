@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	elements := utils.ReadFile("/day-1/input.txt")
+	elements := utils.ReadFile("/day-01/input.txt")
 	const target = 2020
 
 	solutionOne := findSolutionOne(elements, target)

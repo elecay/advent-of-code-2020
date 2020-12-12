@@ -12,7 +12,7 @@ const nop = "nop"
 const acc = "acc"
 
 func main() {
-	elements := utils.ReadFile("/day-8/input.txt")
+	elements := utils.ReadFile("/day-08/input.txt")
 
 	solutionOne, _ := findSolutionOne(elements)
 	if solutionOne != -1 {
