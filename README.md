@@ -35,6 +35,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 8: Handheld Halting](https://github.com/elecay/advent-of-code-2020/tree/main/day-08)| 🌟 | 🌟 |
 | [Day 9: Encoding Error](https://github.com/elecay/advent-of-code-2020/tree/main/day-09)| 🌟 | 🌟 |
 | [Day 10: Adapter Array](https://github.com/elecay/advent-of-code-2020/tree/main/day-10)| 🌟 | 🌟 |
+| [Day 11: Seating System](https://github.com/elecay/advent-of-code-2020/tree/main/day-11)| 🌟 | 🌟 |
 
 ## Running Tests
 
